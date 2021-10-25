@@ -1,0 +1,130 @@
+
+@media  (max-width:992px){
+    main .secao-com-texto{
+        padding: 153px 40px;
+    }
+
+    main .secao-com-texto p,
+    main .secao-com-texto .onde-estamos p{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+
+    .contato{
+        background-image: none;
+        background-color: #D1A45D;
+    }
+
+    .contato .texto{
+        position: relative;
+        text-align: center;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .contato .texto h2{
+        margin-bottom: 4.2rem;
+    }
+
+}
+
+@media (max-width:720px){
+    .ladrilho .grande{
+        width: 100%;
+    }
+
+    .ladrilho .pequena{
+        width: 50%;
+    }
+
+    .ladrilho .pequena.grao{
+        width: 50%;
+    }
+
+    .ladrilho .medio{
+        width: 100%;
+    }
+
+    .robape{
+        text-align: center;
+       background-image: none;
+       background: #000;
+    }
+
+    .robape .logo{
+        display: block;
+    }
+
+    .robape ul{
+        width: 100%;
+        display: block;
+        margin: 12rem 0;
+    }
+
+    .robape ul li{
+        display: block;
+    }
+
+    .robape ul li a{
+       font-size: 2rem;
+    }
+
+    .robape .redes-sociais{
+        float: none;
+        margin-bottom: 2.8rem;
+    }
+
+
+}
+
+@media (max-width:425px){
+    .cabecalho .logo{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .cabecalho .barra-de-navegacao{
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cabecalho .barra-de-navegacao ul li{
+        display: block;
+    }
+
+    .cabecalho .barra-de-navegacao ul li a{
+        width: 100%;
+        display: block;
+        padding: 15px 0;
+    }
+
+    main .painel h2{   
+        font-size: 2.5rem;
+    }
+
+    main .secao-com-texto header h2{
+        font-size: 3rem;
+    }
+
+    main .secao-com-texto .onde-estamos p{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width:375px){
+    .ladrilho .pequena{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .ladrilho .pequena.grao{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
